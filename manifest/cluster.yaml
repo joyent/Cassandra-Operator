@@ -1,0 +1,8 @@
+apiVersion: stable.instaclustr.com/v1
+kind: CassandraDataCentre
+metadata:
+  name: cassandra
+spec:
+  serviceName: cassandra
+  replicas: 1
+  image: gcr.io/cassandra-operator/cassandra:latest
